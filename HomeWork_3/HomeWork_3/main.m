@@ -77,6 +77,7 @@ int main() {
     @autoreleasepool {
         // 1. Создать массив строк и вывести его в консоль используя цикл.
         NSMutableArray *mutableArrayString = [NSMutableArray arrayWithObjects:@"Hello", @"world", @"Stanislav", @"Lemeshaev", nil];
+        
         // Распечатка элементов массива
         for (int i = 0; i < mutableArrayString.count; i++) {
             NSLog(@"Elements: \n %d - %@", i, mutableArrayString[i]);
