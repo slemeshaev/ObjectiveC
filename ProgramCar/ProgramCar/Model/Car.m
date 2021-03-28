@@ -49,6 +49,6 @@
 {
     [self remove];
     NSLog(@"Dealloc car");
-    [super dealloc]; 
+    [super dealloc];
 }
 @end
